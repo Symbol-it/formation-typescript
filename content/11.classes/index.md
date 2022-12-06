@@ -9,8 +9,6 @@ class Car {
   constructor(make, model, year) {
     this.make = make
     this.model = model
-          
-    Car.model: any
     this.year = year
   }
 }
@@ -30,8 +28,6 @@ class Car {
   constructor(make: string, model: string, year: number) {
     this.make = make
     this.model = model
-          
-(property) Car.model: string
     this.year = year
   }
 }
@@ -134,5 +130,5 @@ const myCar = new Car("Honda", "Accord", 2017)
 myCar.make
 ```
 
-Le constructeur est le suel autre endroit ou les `access modfiers` sont utilisable.
+Le constructeur est le seul autre endroit ou les `access modfiers` sont utilisable.
 

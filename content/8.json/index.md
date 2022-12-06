@@ -10,6 +10,7 @@ Un JSON est constitue de:
 - tableau
 - nombre
 - string
+
   ainsi que des literal types:
 - false
 - true
