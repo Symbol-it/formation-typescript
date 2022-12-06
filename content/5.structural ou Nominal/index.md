@@ -90,4 +90,4 @@ printCar(vehicle); // Ok
 
 ### Une histoire de canard
 
-Si ca ressemble a un cannard, que ca nage comme un canard et que ca cancane comme un canard alors c'est "propablement" un canard
+Si ca ressemble a un canard, que ca nage comme un canard et que ca cancane comme un canard alors c'est "probablement" un canard

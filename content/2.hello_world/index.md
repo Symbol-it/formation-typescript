@@ -23,7 +23,7 @@ package.json
 }
 ```
 
-tsconffig.json
+tsconfig.json
 
 ```json
 {

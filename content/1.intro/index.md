@@ -12,8 +12,6 @@ description: ""
 - Types de haut niveau et types de bas niveau
 - Generique
 
-## Moi
-
 ## Planning
 
 ## Presentation de typescript et de la formation

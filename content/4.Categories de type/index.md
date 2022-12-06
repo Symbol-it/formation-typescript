@@ -75,7 +75,7 @@ const phones = {
 ```
 
 ```ts
-const phones = {
+const phones : {
   [k: string]: {
     country: string
     area: string
