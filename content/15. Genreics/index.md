@@ -38,8 +38,13 @@ const phoneList = [
   { customerId: "0004", areaCode: "301", num: "184-8501" },
 ]
 
+const gen: (x: PhoneInfo) => string = (x:PhoneInfo) => {x.customerId}
 
+function listToDict(list: PhoneInfo[]): {[k:string]: PhoneInfo} {
+    let k = gen(list[0])
+}
 
+const dict: {[k:string]: PhoneInfo} = {}
 
 
 
@@ -82,7 +87,30 @@ function listToDict(
 
     list.forEach((elt) => {
         const key = idGen(elt)
-        dict[elt] = elt
+        dict[key] = elt
+    })
+
+    return dict
+}
+```
+
+### Les type parameters
+
+C'est comme des arguments de fonction mais pour les types.
+
+on utilise `<>`
+
+```ts
+function listToDict<T>(
+    list: T[],
+    idGen: (arg: T) => string
+) : {[k:string]: T} {
+
+    const dict: {[k:string]: T} = {}
+
+    list.forEach((elt) => {
+        const key = idGen(elt)
+        dict[key] = elt
     })
 
     return dict
