@@ -25,8 +25,8 @@ interface DateConstructor {
   new (value: number): Date;
 }
 
-let myConstructor: DateConstructor = Date;
-const d = new MyDateConstructor();
+let MyConstructor: DateConstructor = Date;
+const d = new MyConstructor(7677);
 ```
 
 ## Function overloads
@@ -67,10 +67,8 @@ const myForm = document.getElementsByTagName("form")[0]
 const myForm: HTMLFormElement
 handleMainEvent(myFrame, (val) => {
 
-function handleMainEvent(elem: HTMLIFrameElement, handler: MessageHandler): any (+1 overload)
 })
 handleMainEvent(myForm, (val) => {
 
-function handleMainEvent(elem: HTMLFormElement, handler: FormSubmitHandler): any (+1 overload)
 })
 ```
